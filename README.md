@@ -1,4 +1,4 @@
-# CognalityPoseServer
+# Cognality Pose Server
 Cognality's Go REST API saves real-time AR pose data stream with relation to S3 key to retrieve later for real-time 3d reconstruction and semantic segmentation.
 
 # Endpoints
@@ -33,7 +33,7 @@ RETURNS
  
 
 # Todos
- - [] update hashing mechanism to something faster and more cryptographically secure
+ - [ ] update hashing mechanism to something faster and more cryptographically secure
  - [x] update from express to fiber to make it go more zoom zoom
  - [x] docker
  - [x] transition from postgres to mongo
