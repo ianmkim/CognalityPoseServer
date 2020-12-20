@@ -3,12 +3,12 @@ Cognality's Go REST API saves real-time AR pose data stream with relation to S3 
 
 # Endpoints
  ```
- GET https://cognality-pose-server-prod.herokuapp.com/frames/<token>/<id>
+ GET /frames/<token>/<id>
  ```
  retrieves a JSON of all the frames with the specified <id> using a securely hashed <token>
  
  ```
- POST https://cognality-pose-server-prod.herokuapp.com/frames
+ POST /frames
  BODY 
  {
 	"token": "<token>",
@@ -33,7 +33,7 @@ RETURNS
  
 
 # Todos
- - [ ] update hashing mechanism to something faster and more cryptographically secure
+ - [x] update hashing mechanism to something faster and more cryptographically secure
  - [x] update from express to fiber to make it go more zoom zoom
  - [x] docker
  - [x] transition from postgres to mongo
